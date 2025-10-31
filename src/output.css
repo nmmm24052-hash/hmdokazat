@@ -466,6 +466,11 @@
       padding: calc(var(--spacing) * 10);
     }
   }
+  .max-sm\:text-center {
+    @media (width < 40rem) {
+      text-align: center;
+    }
+  }
   .max-sm\:text-start {
     @media (width < 40rem) {
       text-align: start;
